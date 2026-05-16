@@ -31,7 +31,7 @@ export default function Contact() {
 
       <section className="section">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: '5rem', alignItems: 'start' }}>
+          <div className="contact-layout" style={{ display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: '5rem', alignItems: 'start' }}>
             {/* Info */}
             <div>
               <h2 className="display-sm" style={{ marginBottom: '2rem' }}>Studio Information</h2>
